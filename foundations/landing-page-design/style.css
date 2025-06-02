@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+ font-family: Roboto;
+ margin:0;
+ padding:0;
+}
+
+.hero{
+padding:12px 64px;
+background-color:#1F2937 ;
+color:#E5E7EB;
+}
+
+.header{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 18px;
+    color:#E5E7EB;
+    margin:auto;
+}
+ul{
+ list-style-type:none;
+ font-size:12px;
+ margin:auto;
+ color:#E5E7EB;
+ display:flex;
+ justify-content:flex-end;
+ gap:14px;
+}
+/* Hero contents */
+.hero-contents{
+ display: flex;
+ justify-content:center;
+}
+.card-1{
+    margin:auto;
+    height:250px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    ;
+}
+.card-2{
+    margin:auto;
+    background-color:gray;
+    height:120px;
+    width: 350px;
+    border-radius:8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color:#3882f6 ;
+    outline:none;
+    border:none;
+    padding:5px;
+    border-radius:5%;
+    width:80px;
+}
+.under-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    padding-bottom:64px;
+}
+
+h2{
+    text-align: center;
+}
+
+.box{
+    height: 130px;
+    width:140px;
+    font-size: 12px;
+    overflow-wrap:break-word;
+}
+.inner{
+    width:130px;
+    height:120px;
+    border:#3882f6 solid;
+    border-radius:10px;
+}
+.quote{
+    padding:64px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-card{
+    width: 600px;
+    height:120px;
+    align-self: center;
+}
+
+.call-to-action{
+    padding:32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    margin-top:auto;
+    width:30%;
+    background-color: #3882f6;
+    display:flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;;
+}
+button{
+    margin-left: auto;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #E5E7EB;
+    background-color: #3882f6;
+    color:#E5E7EB;
+}
+footer{  
+
+   background-color: #1F2937;
+   padding: 32px;
+   color:#E5E7EB;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
